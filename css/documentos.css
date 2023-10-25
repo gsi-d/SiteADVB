@@ -1,0 +1,17 @@
+.btn-1 {
+    padding: 10px 8px;
+    width: 50px;
+    color: #80D6F4;
+    background: #fff;
+    border: 1px solid #80D6F4;
+    border-radius: 5px;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+    
+}
