@@ -58,6 +58,23 @@
             background: #BCBCBC;
             transition: 0.5s;
         }
+
+        .relative {
+            position: relative;
+        }
+
+        .absolute {
+            position: absolute;
+            bottom: 15%;
+            display: flex;
+        }
+
+        .forma-1 {
+        width: 180px;
+        height: 40px;
+        background-color: #80D6F4;
+        transform: skewX(-20deg);
+        }
         </style>
     </head>
 
@@ -73,4 +90,11 @@
         <!-- Botão 3 -->
         <div class="btn-3"> Botão 3 </div>
         
+        <div class="relative">
+            <div class="forma-1"></div>
+            <div class="absolute">
+            <p class="">Documentos</p>
+            <img style="height: 40px;" src="/Images/downloadicon.png"> 
+            </div>
+        </div>
     </body>
