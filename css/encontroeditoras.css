@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: #F2F1F1;
+    padding-bottom: 20vh;
+    position: relative;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.div-image{
+    background-color: #26B1E2;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.menu a{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    height: 35px;
+    align-items: center;
+}
+
+.menu a:hover{
+    text-decoration: none;
+    background-color: #717171;
+    height: 35px;
+}
+
+.logo{
+    height: 50px;
+}
+
+.divider{
+    background-color: white;
+    width: 2px;
+    height: 31px;
+    margin-top: 2px;
+}
+
+
+
+
+footer{
+    color: white;
+    display: flex;
+    background-color: #26B1E2;
+    position: absolute;
+    width: 100%;
+    bottom: 0%;
+    left: 0%;
+    height: 20vh;
+    justify-content: space-between;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+footer h3{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#direito{
+    display: flex;
+    position: fixed;
+    bottom: 0%;
+    font-weight: 50;
+}
+
+.documentos-footer{
+    position: relative;
+    left: 10%;
+}
+
+.contatos-footer{
+    display: block;
+    justify-content: center;
+}
+
+.solucoes-acessibilidade-footer{
+    position: relative;
+    left: 65%;
+}
+
+.tag-a-solucoes{
+    text-decoration: underline;
+}
+
+
+
+
+h1{
+    color:#26B1E2;
+    font-weight: 100;
+}
+
+h2{
+    color:#26B1E2;
+    font-weight: 50;
+    margin-bottom: 20px;
+}
+
+h4{
+    color: #BEC0E9;
+    font-weight: 100;
+}
+
+.btn-3 {
+    padding: 10px 12px;
+    width: 90px;
+    color: #9747FF;
+    background: transparent;
+    border: 1px solid #9747FF;
+    border-radius: 15px;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.btn-3:hover {
+    background: #BCBCBC;
+    transition: 0.5s;
+}
+
+.divider-outros-eventos{
+    background-color: #26B1E2;
+    width: 100%px;
+    height: 3px;
+}
+
+main{
+    margin-top: 40px;
+    display: flex;
+}
+
+.textos{
+    margin-left: 50px;
+}
+
+.informacoes{
+    margin-top: 30px;
+}
+
+.programacao{
+    margin-top: 30px;
+}
+
+.atencao{
+    margin-top: 30px;
+}
+
+
