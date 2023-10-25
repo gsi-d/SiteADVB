@@ -74,9 +74,10 @@
         }
 
         .container {
-            text-align: center;
-            display: inline;
-            position: absolute;
+            color: #fff;
+            font-size: 30px;
+            display: flex;
+            align-items: center;
         }
 
         .centralizar {
@@ -85,12 +86,71 @@
         }
 
         .forma-1 {
-        width: 320px;
-        height: 80px;
+        width: 310px;
+        height: 60px;
         background-color: #80D6F4;
-        transform: skewX(-20deg);
-        position: relative;
+        transform: skewX(30deg);
+        justify-content: center;
+        display: flex;
+        border:2px solid black;
         }
+
+        .Colunas-PDF {
+            position: relative;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .elemento {
+            margin: 30px;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .margintop-100 {
+            margin-top: 100px;
+        }
+
+        .menu{
+            display: flex;
+            justify-content: space-between;
+            background-color: black;
+        }
+
+        .div-image{
+            background-color: #26B1E2;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .menu a{
+            display: flex;
+            text-decoration: none;
+            color: white;
+            height: 35px;
+            align-items: center;
+        }
+
+        .menu a:hover{
+            text-decoration: none;
+            background-color: #717171;
+            height: 35px;
+        }
+
+        .logo{
+            height: 50px;
+        }
+
+        .divider{
+            background-color: white;
+            width: 2px;
+            height: 31px;
+            margin-top: 2px;
+        }
+
         </style>
     </head>
 
@@ -105,15 +165,72 @@
 
         <!-- Botão 3 -->
         <div class="btn-3"> Botão 3 </div>
-        
-        <div class="centralizar">
-        <div class="forma-1">
-            <div class="container">
-                <p>Documentos</p>
-                <img src="downloadicon.png">
+
+        <!-- Inicio NAV MENU -->
+        <div>
+            <div class="div-image">
+                <img class="logo" src="/Images/ADVB_LOGO.png"/>
             </div>
         </div>
+        <nav class="nav-menu">
+            <div class="menu">
+                <a href="index.html">Página Inicial</a>
+                <div class="divider"></div>
+                <a href="#">Informações e Parcerias</a>
+                <div class="divider"></div>
+                <a href="#">Soluções em Acessibilidade</a>
+                <div class="divider"></div>
+                <a href="#">Contato</a>
+                <div class="divider"></div>
+                <a href="documentos.html">Documentos ADVB</a>
+            </div>
+        </nav>
+        <!-- Fim NAV MENU -->
+        
+        <!-- Forma Geométrica Centro Tela-->
+        <div class="centralizar">
+            <div " class="forma-1 margintop-100">
+                <div class="container">
+                <p>DOCUMENTOS</p>
+                <img src="downloadicon.png" alt="downloadicon">
+                </div>
+            </div>
         </div>
+        <!-- Fim Form Geométrica -->
+
+        <!-- Elementos dos Documentos -->
+        <div class="Colunas-PDF margintop-100">
+            <div class="elemento">
+                <img src="PDF.png" alt="PDF">
+                <p class="btn-1">Estatuto</p>
+            </div>
+            <div class="elemento">
+                <img src="PDF.png" alt="PDF">
+                <p class="btn-1">Ata de diretoria</p>
+            </div>
+            <div class="elemento">
+                <img src="PDF.png" alt="PDF">
+                <p class="btn-1">Ata de fundação</p>
+            </div>
+            <div class="elemento">
+                <img src="PDF.png" alt="PDF">
+                <p class="btn-1">Declaração de endereço</p>
+            </div>
+            <div class="elemento">
+                <img src="PDF.png" alt="PDF">
+                <p class="btn-1">Certidão de personalidade Jurídica</p>
+            </div>
 
         </div>
+        <div class="Colunas-PDF">
+            <div class="elemento">
+                <img src="PDF.png" alt="PDF">
+                <p class="btn-1">Utilidade pública estadual</p>
+            </div>
+            <div style="margin-top: 30px;" class="elemento">
+                <img src="PDF.png" alt="PDF">
+                <p class="btn-1">Utilidade pública municipal</p>          
+            </div>
+        </div>
+        <!-- Fim Dos Elementos dos Documentos -->
     </body>
