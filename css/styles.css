@@ -114,5 +114,90 @@ display: flex;
 /*Fim do CSS CARD*/
 
 
+/*Main inicio*/
+.textoprincipal-main{
+    width: 1950px;
+    font-size: 24px;
+}
 
-/*FDFDFSDF/*
+.titulo-main{
+    font-size: 28px;
+    margin-left: 50px;
+}
+
+.primeirotexto-main{
+    width: 1200px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+}
+
+.segundotexto-main{
+    width: 1200px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+}
+
+.terceirotexto-main{
+    margin-top: 100px;
+    margin-bottom: 30px;
+    margin-left: 500px;
+}
+
+.quartotexto-main{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-left: 500px;
+}
+
+.quintotexto-main{
+    width: 1200px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+}
+
+.sextotexto-main{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-left: 500px;
+}
+
+.setimotexto-main{
+    width: 1200px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+}
+
+
+.oitavotexto-main{
+    width: 1200px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+}
+
+
+.nonotexto-main{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 500px;
+}
+
+.decimotexto-main{
+    width: 1200px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+}
+
+.decimoprimeirotexto-main{
+    width: 1200px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+}
+
+/*Main final*/
