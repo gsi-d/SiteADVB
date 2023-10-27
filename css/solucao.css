@@ -7,10 +7,41 @@ body{
     position: relative;
 }
 
+.logo{
+    height: 50px;
+}
+
+
+.primeira-parte{
+    display: flex;
+}
+
+.titulo-solucoes{
+   position: absolute;
+}
+
+.titulo-solucoes p{
+    font-weight: 50;
+    position: relative;
+    justify-content: right;
+}
+
+.div-image-cego{
+    justify-content: right;
+    display: flex;
+    right: 5%;
+    position: absolute;
+}
+
+
 .menu{
     display: flex;
     justify-content: space-between;
     background-color: black;
+}
+
+.menu-btn {
+    margin: 90px;
 }
 
 .div-image{
@@ -45,33 +76,6 @@ body{
     margin-top: 2px;
 }
 
-.primeira-parte{
-    display: flex;
-}
-
-.titulo-solucoes{
-   position: absolute;
-}
-
-.titulo-solucoes p{
-    font-weight: 50;
-    position: relative;
-    justify-content: right;
-}
-
-.div-image-cego{
-    justify-content: right;
-    display: flex;
-    right: 5%;
-    position: absolute;
-}
-
-
-
-
-
-
-
 footer{
     color: white;
     display: flex;
@@ -81,7 +85,7 @@ footer{
     bottom: 0%;
     left: 0%;
     height: 30vh;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 footer a{
@@ -96,14 +100,14 @@ footer h3{
 
 #direito{
     display: flex;
-    position: fixed;
+    position: absolute;
     bottom: 0%;
+    left: 1%;
     font-weight: 50;
 }
 
 .documentos-footer{
     position: relative;
-    left: 10%;
 }
 
 .contatos-footer{
@@ -113,7 +117,6 @@ footer h3{
 
 .solucoes-acessibilidade-footer{
     position: relative;
-    left: 65%;
 }
 
 .tag-a-solucoes{
