@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: #F2F1F1;
+    padding-bottom: 30vh;
+    position: relative;
+}
+
+.logo{
+    height: 50px;
+}
+
+
+.primeira-parte{
+    display: flex;
+}
+
+.titulo-solucoes{
+   position: absolute;
+}
+
+.titulo-solucoes p{
+    font-weight: 50;
+    position: relative;
+    justify-content: right;
+}
+
+.div-image-cego{
+    justify-content: right;
+    display: flex;
+    right: 5%;
+    position: absolute;
+}
+
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.menu-btn {
+    margin: 90px;
+}
+
+.div-image{
+    background-color: #26B1E2;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.menu a{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    height: 35px;
+    align-items: center;
+}
+
+.menu a:hover{
+    text-decoration: none;
+    background-color: #717171;
+    height: 35px;
+}
+
+.logo{
+    height: 50px;
+}
+
+.divider{
+    background-color: white;
+    width: 2px;
+    height: 31px;
+    margin-top: 2px;
+}
+
+footer{
+    color: white;
+    display: flex;
+    background-color: #26B1E2;
+    position: absolute;
+    width: 100%;
+    bottom: 0%;
+    left: 0%;
+    height: 30vh;
+    justify-content: space-around;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+footer h3{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#direito{
+    display: flex;
+    position: absolute;
+    bottom: 0%;
+    left: 1%;
+    font-weight: 50;
+}
+
+.documentos-footer{
+    position: relative;
+}
+
+.contatos-footer{
+    display: block;
+    justify-content: center;
+}
+
+.solucoes-acessibilidade-footer{
+    position: relative;
+}
+
+.tag-a-solucoes{
+    text-decoration: underline;
+}

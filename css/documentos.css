@@ -1,0 +1,207 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+    
+body {
+    background-color: #F2F1F1;
+    padding-bottom: 30vh;
+    position: relative;
+}
+
+.btn-1 {
+    padding: 8px 8px;
+    width: 90px;
+    color: #80D6F4;
+    background: #fff;
+    border: 2px solid #80D6F4;
+    border-radius: 25px;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+    }
+
+.btn-1:hover{
+    background: #80D6F4;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.btn-2 {
+    padding: 15px 12px;
+    width: 90px;
+    color: #fff;
+    background: #0EA9DF;
+    border: 2px solid #0EA9DF;
+    border-radius: 15px;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+}
+
+.btn-2:hover {
+    background: #006E94;
+    color: #fff;
+    border-color: #006E94;
+    transition: 0.5s;
+}
+
+.btn-3 {
+    padding: 15px 12px;
+    width: 90px;
+    color: #9747FF;
+    background: #fff;
+    border: 1px solid #9747FF;
+    border-radius: 15px;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+}
+
+.btn-3:hover {
+    background: #BCBCBC;
+    transition: 0.3s;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.container {
+    color: #fff;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.centralizar {
+    display: flex;
+    justify-content: center;
+}
+
+.forma-1 {
+width: 310px;
+height: 60px;
+background-color: #80D6F4;
+transform: skewX(30deg);
+justify-content: center;
+display: flex;
+border:2px solid black;
+}
+
+.Colunas-PDF {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.elemento {
+    margin: 30px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.margintop-100 {
+    margin-top: 100px;
+}
+
+.btn-href {
+    text-decoration: none;
+    color: #80D6F4;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.menu-btn {
+    margin: 90px;
+}
+
+.div-image{
+    background-color: #26B1E2;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.menu a{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    height: 35px;
+    align-items: center;
+}
+
+.menu a:hover{
+    text-decoration: none;
+    background-color: #717171;
+    height: 35px;
+}
+
+.logo{
+    height: 50px;
+}
+
+.divider{
+    background-color: white;
+    width: 2px;
+    height: 31px;
+    margin-top: 2px;
+}
+
+footer{
+    color: white;
+    display: flex;
+    background-color: #26B1E2;
+    position: absolute;
+    width: 100%;
+    bottom: 0%;
+    left: 0%;
+    height: 30vh;
+    justify-content: space-around;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+footer h3{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#direito{
+    display: flex;
+    position: absolute;
+    bottom: 0%;
+    left: 1%;
+    font-weight: 50;
+}
+
+.documentos-footer{
+    position: relative;
+}
+
+.contatos-footer{
+    display: block;
+    justify-content: center;
+}
+
+.solucoes-acessibilidade-footer{
+    position: relative;
+}
+
+.tag-a-solucoes{
+    text-decoration: underline;
+}

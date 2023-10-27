@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #F2F1F1;
+    padding-bottom: 30vh;
+    position: relative;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.menu-btn {
+    margin: 90px;
+}
+
+.div-image{
+    background-color: #26B1E2;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.menu a{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    height: 35px;
+    align-items: center;
+}
+
+.menu a:hover{
+    text-decoration: none;
+    background-color: #717171;
+    height: 35px;
+}
+
+.logo{
+    height: 50px;
+}
+
+.divider{
+    background-color: white;
+    width: 2px;
+    height: 31px;
+    margin-top: 2px;
+}
+
+.elemento-h1 {
+    color: #0EA9DF;
+    font-size: 48px;
+    text-align: center;
+    margin: 15px;
+}
+
+.h1-outro {
+    color: #0EA9DF;
+    font-size: 36px;
+    text-align: center;
+    margin: 15px;
+}
+
+.txt {
+    font-size: 24px;
+    text-align: justify;
+}
+
+.paragrafo {
+    text-indent: 2em;
+}
+
+.txtcomimg {
+    display: flex;
+}
+
+.textoimg-colunas {
+    display: flex;
+    flex-direction: column;
+}
+
+.txt-align {
+    text-align: center;
+}
+
+.article {
+    column-count: 2;
+    column-gap: 5rem;
+    display: inline-block;
+}
+
+.imagem-aolado {
+    display: flex;
+}
+
+.img {
+    width: 280px;
+}
+
+.img-centro {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.margin-top {
+    margin-top: 100px;
+}
+
+footer{
+    color: white;
+    display: flex;
+    background-color: #26B1E2;
+    position: absolute;
+    width: 100%;
+    bottom: 0%;
+    left: 0%;
+    height: 30vh;
+    justify-content: space-around;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+footer h3{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#direito{
+    display: flex;
+    position: absolute;
+    bottom: 0%;
+    left: 1%;
+    font-weight: 50;
+}
+
+.documentos-footer{
+    position: relative;
+}
+
+.contatos-footer{
+    display: block;
+    justify-content: center;
+}
+
+.solucoes-acessibilidade-footer{
+    position: relative;
+}
+
+.tag-a-solucoes{
+    text-decoration: underline;
+}
+

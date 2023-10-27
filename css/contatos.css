@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    zoom: 100%;
+}
+
+/*Nav Menu*/
+body{
+    background-color: #0690BF;
+    padding-bottom: 30vh;
+    position: relative;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.div-image{
+    background-color: #26B1E2;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.menu a{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    height: 35px;
+    align-items: center;
+}
+
+.menu a:hover{
+    text-decoration: none;
+    background-color: #717171;
+    height: 35px;
+}
+
+.logo{
+    height: 50px;
+}
+
+.divider{
+    background-color: white;
+    width: 2px;
+    height: 31px;
+    margin-top: 2px;
+}
+
+
+
+/*Footer*/
+footer{
+    color: white;
+    display: flex;
+    background-color: #26B1E2;
+    position: absolute;
+    width: 100%;
+    bottom: 0%;
+    left: 0%;
+    height: 30vh;
+    justify-content: space-between;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+footer h3{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#direito{
+    display: flex;
+    position: absolute;
+    bottom: 0%;
+    left: 1%;
+    font-weight: 50;
+}
+
+.documentos-footer{
+    position: relative;
+    left: 10%;
+}
+
+.contatos-footer{
+    display: block;
+    justify-content: center;
+}
+
+.solucoes-acessibilidade-footer{
+    position: relative;
+    left: 65%;
+}
+
+.tag-a-solucoes{
+    text-decoration: underline;
+}
+
+
+
+
+h1{
+    color: white;
+    font-weight: 600;
+}
+
+h2{
+    color:#26B1E2;
+    font-weight: 50;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+h4{
+    color: #BEC0E9;
+    font-weight: 100;
+}
+
+.geral{
+    width: 100%;
+}
+
+.contate{
+    color: white;
+    background-color: #0690BF;
+    height: 16vh;
+}
+
+.title1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.m-t-35{
+    margin-top: 35px;
+}
+
+.m-t-15{
+    margin-top: 15px;
+}
+
+.imagem{
+    position: relative;
+}
+
+.img-fundo{
+    width: 100%;
+}
+
+.container{
+    position: absolute;
+    background-color: #46CDFD;
+    opacity: 0.68;
+    width: 60vw;
+    color: white;
+    border-radius: 15px;
+    bottom: 70%;
+    left: 35%;
+    padding: 10px;
+}
+
+.container-dois{
+    position: absolute;
+    background-color: #46CDFD;
+    opacity: 0.68;
+    width: 45vw;
+    color: white;
+    border-radius: 15px;
+    bottom: 35%;
+    left: -1%;
+    padding: 10px;
+}
+
+.paragrafo-container{
+    opacity: 9 !important;
+    font-size: larger;
+}
+
+.paragrafo-container-dois{
+    margin-left: 15px;
+    font-size: larger;
+}
+
+
