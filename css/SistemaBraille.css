@@ -3,12 +3,7 @@
     padding: 0;
 }
 
-body {
-    background-color: #F2F1F1;
-    padding-bottom: 30vh;
-    position: relative;
-}
-
+/*Início Nav Menu*/
 .menu{
     display: flex;
     justify-content: space-between;
@@ -49,6 +44,14 @@ body {
     width: 2px;
     height: 31px;
     margin-top: 2px;
+}
+/*Fim Nav Menu*/
+
+/*Início main*/
+body {
+    background-color: #F2F1F1;
+    padding-bottom: 30vh;
+    position: relative;
 }
 
 .elemento-h1 {
@@ -111,7 +114,9 @@ body {
 .margin-top {
     margin-top: 100px;
 }
+/*Fim main*/
 
+/*Início Footer*/
 footer{
     color: white;
     display: flex;
@@ -158,4 +163,4 @@ footer h3{
 .tag-a-solucoes{
     text-decoration: underline;
 }
-
+/*Fim Footer*/

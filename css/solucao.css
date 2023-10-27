@@ -1,43 +1,18 @@
 *{
     margin: 0;
-}
-body{
-    background-color: #F2F1F1;
-    padding-bottom: 30vh;
-    position: relative;
-}
-
-.logo{
-    height: 50px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    zoom: 100%;
 }
 
 
-.primeira-parte{
-    display: flex;
-}
-
-.titulo-solucoes{
-   position: absolute;
-}
-
-.titulo-solucoes p{
-    font-weight: 50;
-    position: relative;
-    justify-content: right;
-}
-
-.div-image-cego{
-    justify-content: right;
-    display: flex;
-    right: 5%;
-    position: absolute;
-}
-
-
+/* Inicio Nav Menu */
 .menu{
     display: flex;
     justify-content: space-between;
     background-color: black;
+    margin-bottom: 50px;
 }
 
 .menu-btn {
@@ -75,7 +50,146 @@ body{
     height: 31px;
     margin-top: 2px;
 }
+/* Final Nav Menu */
 
+/*Início main*/
+body{
+    background-color: #F2F1F1;
+    padding-bottom: 30vh;
+    position: relative;
+}
+
+h2{
+    color: #0EA9DF;
+}
+
+.primeira-parte{
+    display: flex;
+}
+
+.titulo-solucoes{
+   position: absolute;
+}
+
+.titulo-solucoes p{
+    font-weight: 50;
+    position: relative;
+    justify-content: right;
+}
+
+.div-image-cego{
+    justify-content: right;
+    display: flex;
+    right: 5%;
+    position: absolute;
+}
+
+.primeira-parte{
+    display: flex;
+}
+
+.primeira-parte h1{
+    color: #26B1E2;
+}
+.titulo-solucoes{
+   position: absolute;
+}
+
+.titulo-solucoes p{
+    font-weight: 50;
+    position: relative;
+    justify-content: right;
+}
+
+.div-image-cego{
+    justify-content: right;
+    display: flex;
+    right: 5%;
+    position: absolute;
+}
+
+.segunda-parte{
+display: flex;
+padding-bottom: 100px;
+
+}
+
+.texto-solucao  h3{
+    
+    position: relative;
+    justify-content: right;
+    margin-bottom: 10px 5px;
+}
+
+.image-braile{
+    display: flex;
+    justify-content: right;
+    right: 5%;
+    position: absolute;
+}
+
+.botao1{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+.btn-href{
+    text-decoration: none;
+}
+
+.link-pai h4{
+    color: #26B1E2;
+}
+
+.links-soft{
+    padding-bottom: 50px;
+}
+
+.btn-primary {
+    padding: 8px 100px;
+    color: #F2F1F1;
+    background: #26B1E2;
+    border: 2px solid #26B1E2;
+    border-radius: 10px;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+    justify-content: center;
+
+}
+
+.btn-primary:hover {
+    background: #006E94;
+    color: #fff;
+    border-color: #006E94;
+    transition: 0.5s;
+}
+
+.btn-secondary {
+    padding: 8px 20px;
+    width: 130px;
+    color: #9747FF;
+    background: #F2F1F1;
+    border: 2px solid #9747FF;
+    border-radius: 10px;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+    justify-content: center;
+}
+
+.btn-secondary:hover {
+    background: #BCBCBC;
+    transition: 0.5s;
+}
+
+main{
+    margin-left: 50px;
+}
+/*Fim main*/
+
+/*Início Footer*/
 footer{
     color: white;
     display: flex;
@@ -122,3 +236,4 @@ footer h3{
 .tag-a-solucoes{
     text-decoration: underline;
 }
+/* Fim do Footer */

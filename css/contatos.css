@@ -6,17 +6,21 @@
     zoom: 100%;
 }
 
-/*Nav Menu*/
+/*Início Nav Menu*/
 body{
-    background-color: #0690BF;
     padding-bottom: 30vh;
     position: relative;
+    background-color: #0690BF;
 }
 
 .menu{
     display: flex;
     justify-content: space-between;
     background-color: black;
+}
+
+.menu-btn {
+    margin: 85px;
 }
 
 .div-image{
@@ -50,62 +54,9 @@ body{
     height: 31px;
     margin-top: 2px;
 }
+/*Fim Nav Menu*/
 
-
-
-/*Footer*/
-footer{
-    color: white;
-    display: flex;
-    background-color: #26B1E2;
-    position: absolute;
-    width: 100%;
-    bottom: 0%;
-    left: 0%;
-    height: 30vh;
-    justify-content: space-between;
-}
-
-footer a{
-    text-decoration: none;
-    color: white;
-}
-
-footer h3{
-    margin-top: 25px;
-    margin-bottom: 25px;
-}
-
-#direito{
-    display: flex;
-    position: absolute;
-    bottom: 0%;
-    left: 1%;
-    font-weight: 50;
-}
-
-.documentos-footer{
-    position: relative;
-    left: 10%;
-}
-
-.contatos-footer{
-    display: block;
-    justify-content: center;
-}
-
-.solucoes-acessibilidade-footer{
-    position: relative;
-    left: 65%;
-}
-
-.tag-a-solucoes{
-    text-decoration: underline;
-}
-
-
-
-
+/*Início main*/
 h1{
     color: white;
     font-weight: 600;
@@ -159,7 +110,7 @@ h4{
 .container{
     position: absolute;
     background-color: #46CDFD;
-    opacity: 0.68;
+    opacity: 0.9;
     width: 60vw;
     color: white;
     border-radius: 15px;
@@ -170,18 +121,21 @@ h4{
 
 .container-dois{
     position: absolute;
+    display: flex;
+    align-items: center;
     background-color: #46CDFD;
-    opacity: 0.68;
-    width: 45vw;
+    opacity: 0.9;
+    width: 50vw;
+    height: 35vh;
     color: white;
     border-radius: 15px;
     bottom: 35%;
     left: -1%;
     padding: 10px;
+    font-size: larger;
 }
 
 .paragrafo-container{
-    opacity: 9 !important;
     font-size: larger;
 }
 
@@ -190,4 +144,155 @@ h4{
     font-size: larger;
 }
 
+/*Formulário*/
 
+.formulario{
+    position: absolute;
+    background-color: #BEC0E9;
+    opacity: 0.9;
+    width: 35vw;
+    color: black;
+    border-radius: 15px;
+    bottom: 35%;
+    right: 5%;
+    padding: 30px;
+}
+
+.div-nome{
+    display: flex;
+}
+
+.form_grupo {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.form_grupo {
+    width: 100%;
+    margin-bottom: 20px;
+    position: relative;
+}
+.form_input {
+    font-size: 16px;
+    font-family: inherit;
+    padding: 8px 15px;
+    border-radius: 4px;
+    border: 1px #f2f2f2 solid;
+    background: #fdfdfd;
+    outline: none;
+    width: 100%;
+    transition: all 0.3s;
+}
+.form_message,
+.form_message .message_input {
+    width: 100%;
+    float:left;
+}
+.form_message_label {
+    width: 100%;
+    float: left;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    
+}
+
+.btn-2 {
+    margin-top: 10px;
+    width: 90px;
+    height: 30px;
+    color: #fff;
+    background: #0EA9DF;
+    border: 2px solid #0EA9DF;
+    border-radius: 15px;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+}
+
+.btn-2:hover {
+    background: #006E94;
+    color: #fff;
+    border-color: #006E94;
+    transition: 0.5s;
+}
+
+/*Fim main*/
+
+/* Inicio Footer */
+
+footer{
+    color: white;
+    display: flex;
+    background-color: #26B1E2;
+    position: absolute;
+    width: 100%;
+    bottom: 0%;
+    left: 0%;
+    height: 30vh;
+    justify-content: space-around;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+footer h3{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#direito{
+    display: flex;
+    position: absolute;
+    bottom: 0%;
+    left: 1%;
+    font-weight: 50;
+}
+
+.documentos-footer{
+    position: relative;
+}
+
+.contatos-footer{
+    display: block;
+    justify-content: center;
+}
+
+.solucoes-acessibilidade-footer{
+    position: relative;
+}
+
+.tag-a-solucoes{
+    text-decoration: underline;
+}
+
+#direito{
+    display: flex;
+    position: absolute;
+    bottom: 0%;
+    left: 1%;
+    font-weight: 50;
+}
+
+.documentos-footer{
+    position: relative;
+    left: 10%;
+}
+
+.contatos-footer{
+    display: block;
+    justify-content: center;
+}
+
+.solucoes-acessibilidade-footer{
+    position: relative;
+    left: 65%;
+}
+
+.tag-a-solucoes{
+    text-decoration: underline;
+}

@@ -3,7 +3,52 @@
     margin: 0;
     padding: 0;
 }
-    
+
+/* Inicio Nav Menu */
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.menu-btn {
+    margin: 90px;
+}
+
+.div-image{
+    background-color: #26B1E2;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.menu a{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    height: 35px;
+    align-items: center;
+}
+
+.menu a:hover{
+    text-decoration: none;
+    background-color: #717171;
+    height: 35px;
+}
+
+.logo{
+    height: 50px;
+}
+
+.divider{
+    background-color: white;
+    width: 2px;
+    height: 31px;
+    margin-top: 2px;
+}
+/* Fim Nav Menu */
+
+/*Início main*/
 body {
     background-color: #F2F1F1;
     padding-bottom: 30vh;
@@ -12,9 +57,8 @@ body {
 
 .btn-1 {
     padding: 8px 8px;
-    width: 90px;
     color: #80D6F4;
-    background: #fff;
+    background: transparent;
     border: 2px solid #80D6F4;
     border-radius: 25px;
     text-align: center;
@@ -87,7 +131,7 @@ body {
 .forma-1 {
 width: 310px;
 height: 60px;
-background-color: #80D6F4;
+background-color: #0EA9DF;
 transform: skewX(30deg);
 justify-content: center;
 display: flex;
@@ -116,49 +160,10 @@ border:2px solid black;
     text-decoration: none;
     color: #80D6F4;
 }
+/*Fim main*/
 
-.menu{
-    display: flex;
-    justify-content: space-between;
-    background-color: black;
-}
 
-.menu-btn {
-    margin: 90px;
-}
-
-.div-image{
-    background-color: #26B1E2;
-    height: 50px;
-    display: flex;
-    justify-content: center;
-}
-
-.menu a{
-    display: flex;
-    text-decoration: none;
-    color: white;
-    height: 35px;
-    align-items: center;
-}
-
-.menu a:hover{
-    text-decoration: none;
-    background-color: #717171;
-    height: 35px;
-}
-
-.logo{
-    height: 50px;
-}
-
-.divider{
-    background-color: white;
-    width: 2px;
-    height: 31px;
-    margin-top: 2px;
-}
-
+/* Inicio do Footer */
 footer{
     color: white;
     display: flex;
@@ -205,3 +210,4 @@ footer h3{
 .tag-a-solucoes{
     text-decoration: underline;
 }
+/* Fim do Footer */

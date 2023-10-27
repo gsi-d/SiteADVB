@@ -6,9 +6,8 @@
     zoom: 100%;
 }
 
-/*Nav Menu*/
+/*Início Nav Menu*/
 body{
-    background-color: #F2F1F1;
     padding-bottom: 30vh;
     position: relative;
 }
@@ -17,6 +16,10 @@ body{
     display: flex;
     justify-content: space-between;
     background-color: black;
+}
+
+.menu-btn {
+    margin: 85px;
 }
 
 .div-image{
@@ -50,99 +53,9 @@ body{
     height: 31px;
     margin-top: 2px;
 }
+/*Fim Nav Menu*/
 
-
-
-/*Footer*/
-footer{
-    color: white;
-    display: flex;
-    background-color: #26B1E2;
-    position: absolute;
-    width: 100%;
-    bottom: 0%;
-    left: 0%;
-    height: 30vh;
-    justify-content: space-between;
-}
-
-footer a{
-    text-decoration: none;
-    color: white;
-}
-
-footer h3{
-    margin-top: 25px;
-    margin-bottom: 25px;
-}
-
-#direito{
-    display: flex;
-    position: absolute;
-    bottom: 0%;
-    left: 1%;
-    font-weight: 50;
-}
-
-.documentos-footer{
-    position: relative;
-    left: 10%;
-}
-
-.contatos-footer{
-    display: block;
-    justify-content: center;
-}
-
-.solucoes-acessibilidade-footer{
-    position: relative;
-    left: 65%;
-}
-
-.tag-a-solucoes{
-    text-decoration: underline;
-}
-
-/*Inicio do CSS CARD*/
-.container-card{
-    margin-left: 50px;
-    border: none;
-    border-radius: 10px;
-    background-color: #80D6F4;
-    width: 300px;
-    height: 300px;
-    box-shadow: 40px solid black;
-    margin-bottom: 50px;
-}
-
-.container-card a{
-    text-decoration: none;
-}
-.textosuperior-card{
-    font-size: 14px;
-    padding: 10px;
-    color: white;
-    text-align: center;
-}
-
-
-.imagem-card{
-    width: 100%;
-    height: 70%;
-}
-.textoinferior-card{
-    color: white;
-    font-size: 12px;
-    text-align: center;
-    margin: 2px;
-}
-
-.container-card img{
-    width: 100%;
-    height: 70%;
-}
-
-
+/*Início main*/
 h1{
     color:#26B1E2;
     font-weight: 600;
@@ -212,4 +125,121 @@ main{
     width: 100%;
 }
 
+/*Inicio CARD*/
+.container-card{
+    margin-left: 50px;
+    border: 1px solid #80D6F4;
+    border-radius: 10px;
+    background-color: #80D6F4;
+    width: 300px;
+    height: 300px;
+    box-shadow: 1px 1px 5px black ;
+    margin-bottom: 50px;
+}
 
+.container-card a{
+    text-decoration: none;
+}
+.textosuperior-card{
+    font-size: 14px;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+
+.imagem-card{
+    width: 100%;
+    height: 70%;
+}
+.textoinferior-card{
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    margin: 2px;
+}
+
+.container-card img{
+    width: 100%;
+    height: 70%;
+}
+
+/*Fim main*/
+
+
+
+/*Footer*/
+footer{
+    color: white;
+    display: flex;
+    background-color: #26B1E2;
+    position: absolute;
+    width: 100%;
+    bottom: 0%;
+    left: 0%;
+    height: 30vh;
+    justify-content: space-around;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+footer h3{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#direito{
+    display: flex;
+    position: absolute;
+    bottom: 0%;
+    left: 1%;
+    font-weight: 50;
+}
+
+.documentos-footer{
+    position: relative;
+}
+
+.contatos-footer{
+    display: block;
+    justify-content: center;
+}
+
+.solucoes-acessibilidade-footer{
+    position: relative;
+}
+
+.tag-a-solucoes{
+    text-decoration: underline;
+}
+
+#direito{
+    display: flex;
+    position: absolute;
+    bottom: 0%;
+    left: 1%;
+    font-weight: 50;
+}
+
+.documentos-footer{
+    position: relative;
+    left: 10%;
+}
+
+.contatos-footer{
+    display: block;
+    justify-content: center;
+}
+
+.solucoes-acessibilidade-footer{
+    position: relative;
+    left: 65%;
+}
+
+.tag-a-solucoes{
+    text-decoration: underline;
+}
+/*Fim Footer*/
