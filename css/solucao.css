@@ -38,6 +38,7 @@ body{
     display: flex;
     justify-content: space-between;
     background-color: black;
+    margin-bottom: 50px;
 }
 
 .menu-btn {
@@ -65,9 +66,7 @@ body{
     height: 35px;
 }
 
-.logo{
-    height: 50px;
-}
+
 
 .divider{
     background-color: white;
@@ -128,6 +127,10 @@ padding-bottom: 100px;
     display: flex;
     justify-content: center;
     padding-bottom: 100px;
+}
+
+.btn-href{
+    text-decoration: none;
 }
 
 .link-pai h4{
