@@ -7,10 +7,42 @@ body{
     position: relative;
 }
 
+.logo{
+    height: 50px;
+}
+
+
+.primeira-parte{
+    display: flex;
+}
+
+.titulo-solucoes{
+   position: absolute;
+}
+
+.titulo-solucoes p{
+    font-weight: 50;
+    position: relative;
+    justify-content: right;
+}
+
+.div-image-cego{
+    justify-content: right;
+    display: flex;
+    right: 5%;
+    position: absolute;
+}
+
+/* Inicio Nav Menu */
 .menu{
     display: flex;
     justify-content: space-between;
     background-color: black;
+    margin-bottom: 50px;
+}
+
+.menu-btn {
+    margin: 90px;
 }
 
 .div-image{
@@ -34,9 +66,7 @@ body{
     height: 35px;
 }
 
-.logo{
-    height: 50px;
-}
+
 
 .divider{
     background-color: white;
@@ -44,14 +74,21 @@ body{
     height: 31px;
     margin-top: 2px;
 }
+/* Final Nav Menu */
+
+
 
 .primeira-parte{
     display: flex;
 }
 
+.primeira-parte h1{
+    color: #26B1E2;
+}
 .titulo-solucoes{
    position: absolute;
 }
+
 
 .titulo-solucoes p{
     font-weight: 50;
@@ -65,6 +102,98 @@ body{
     right: 5%;
     position: absolute;
 }
+
+.segunda-parte{
+display: flex;
+padding-bottom: 100px;
+
+}
+
+.texto-solucao  h3{
+    
+    position: relative;
+    justify-content: right;
+    margin-bottom: 10px 5px;
+}
+
+.image-braile{
+    display: flex;
+    justify-content: right;
+    right: 5%;
+    position: absolute;
+}
+
+.botao1{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+.btn-href{
+    text-decoration: none;
+}
+
+.link-pai h4{
+    color: #26B1E2;
+}
+
+.links-soft{
+    padding-bottom: 50px;
+}
+
+.btn-1 {
+    padding: 8px 100px;
+    width: 100px;
+    color: #F2F1F1;
+    background: #26B1E2;
+    border: 2px solid #26B1E2;
+    border-radius: 10px;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+    justify-content: center;
+
+    }
+
+.botao2 {
+    padding: 8px 20px;
+    width: 90px;
+    color: #9747FF;
+    background: #F2F1F1;
+    border: 2px solid #9747FF;
+    border-radius: 10px;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+    justify-content: center;
+}
+
+.botao3 {
+    padding: 8px 20px;
+    width: 90px;
+    color: #9747FF;
+    background: #F2F1F1;
+    border: 2px solid #9747FF;
+    border-radius: 10px;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+    justify-content: center;
+}
+
+.botao4 {
+    padding: 8px 20px;
+    width: 90px;
+    color: #9747FF;
+    background: #F2F1F1;
+    border: 2px solid #9747FF;
+    border-radius: 10px;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+    justify-content: center;
+}
+
 
 
 
@@ -81,7 +210,7 @@ footer{
     bottom: 0%;
     left: 0%;
     height: 30vh;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 footer a{
@@ -96,14 +225,14 @@ footer h3{
 
 #direito{
     display: flex;
-    position: fixed;
+    position: absolute;
     bottom: 0%;
+    left: 1%;
     font-weight: 50;
 }
 
 .documentos-footer{
     position: relative;
-    left: 10%;
 }
 
 .contatos-footer{
@@ -113,9 +242,9 @@ footer h3{
 
 .solucoes-acessibilidade-footer{
     position: relative;
-    left: 65%;
 }
 
 .tag-a-solucoes{
     text-decoration: underline;
 }
+/* Fim do Footer */

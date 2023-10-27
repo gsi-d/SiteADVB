@@ -2,8 +2,14 @@
 * {
     margin: 0;
     padding: 0;
-
 }
+    
+body {
+    background-color: #F2F1F1;
+    padding-bottom: 30vh;
+    position: relative;
+}
+
 .btn-1 {
     padding: 8px 8px;
     width: 90px;
@@ -106,10 +112,20 @@ border:2px solid black;
     margin-top: 100px;
 }
 
+.btn-href {
+    text-decoration: none;
+    color: #80D6F4;
+}
+
+/* Inicio Nav Menu */
 .menu{
     display: flex;
     justify-content: space-between;
     background-color: black;
+}
+
+.menu-btn {
+    margin: 90px;
 }
 
 .div-image{
@@ -143,3 +159,53 @@ border:2px solid black;
     height: 31px;
     margin-top: 2px;
 }
+/* Fim do Nav Menu */
+
+/* Inicio do Footer */
+footer{
+    color: white;
+    display: flex;
+    background-color: #26B1E2;
+    position: absolute;
+    width: 100%;
+    bottom: 0%;
+    left: 0%;
+    height: 30vh;
+    justify-content: space-around;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+footer h3{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#direito{
+    display: flex;
+    position: absolute;
+    bottom: 0%;
+    left: 1%;
+    font-weight: 50;
+}
+
+.documentos-footer{
+    position: relative;
+}
+
+.contatos-footer{
+    display: block;
+    justify-content: center;
+}
+
+.solucoes-acessibilidade-footer{
+    position: relative;
+}
+
+.tag-a-solucoes{
+    text-decoration: underline;
+}
+/* Fim do Footer */
