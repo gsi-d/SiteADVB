@@ -3,41 +3,76 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #F2F1F1;
-    zoom: 100%;
 }
 
 /*Página Principal - Inicio*/
 
-.informacoes-imagem-container{
-    
-    background-color: #0EA9DF;
-    position: relative;
-    display: inline-block;
-}
+/* Imagem e texto - Superior - inicio*/
 
 .textosuperior-pgprincipal{
-    font-size: 30px;
+    font-size: 40px;
+    padding: 20px;
+    color: #F2F1F1;
+    text-shadow: 10px black;
     position: absolute;
     top: 400px;
-    left: 400px;
-    background-color: rgba(255, 255, 255, 0.5); /* transparente de branco */
-    color: black;
-    padding: 10px;
+    left: 100px;
+    right: 50px;
+    text-align: center;
 
 }
+.texto-imagem img{
+    width: 100%;
+    position: relative;
+    filter: brightness(50%);
+    
+}
 
-.imagem-superior{
-    width: 80vh;
-    height: auto;
+.missaoprincipal-superior{
+    font-size: 25px;
+    padding: 20px;
+    color: #F2F1F1;
+    text-shadow: 10px black;
+    position: absolute;
+    top: 550px;
+    left: 100px;
+    right: 50px;
+    text-align: center;
+    border-top: 5px white solid;
+
+}
+body{
+    background-color: #F2F1F1;
+}
+
+/* Imagem e texto - inferior - final*/
+
+
+
+/*MAPA*/
+.map-info{
+    margin-top: 50px;
+    background-color: #46CDFD;
+    margin-bottom: 50px;
+}
+.map-info iframe{
+position: relative;
+left: 800px;
+display: flex;
 }
 
 
-
-
-
-
-
+.info-map{
+    font-size: 25px;
+    padding: 20px;
+    color: #F2F1F1;
+    text-shadow: 10px 5px 10px rgb(12, 110, 214);
+    position: absolute;
+    top: 2850px;
+    left: 100px;
+    right: 50px;
+    text-align: left;
+}
 
 /*Página Principal - Final*/
 
@@ -50,8 +85,9 @@
     background-color: #0EA9DF;
     width: 200px;
     height: 300px;
-    box-shadow: 40px black ;
+    box-shadow: 1px 5px 5px black ;
 }
+
 .textosuperior-card{
     font-size: 14px;
     padding: 10px;
@@ -59,11 +95,6 @@
     text-align: center;
 }
 
-
-.imagem-card{
-    width: 100%;
-    height: 70%;
-}
 .textoinferior-card{
     color: white;
     font-size: 12px;
@@ -76,4 +107,151 @@
 }
 /*Fim do CSS CARD*/
 
+
+/*Main inicio*/
+
+/*Textos inicio*/
+.textoprincipal-main{
+    width: 1950px;
+    font-size: 24px;
+}
+
+.titulo-main{
+    font-size: 28px;
+    margin-left: 50px;
+}
+
+.primeirotexto-main{
+    width: 1200px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+}
+
+.segundotexto-main{
+    width: 1200px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+}
+
+.terceirotexto-main{
+    margin-top: 100px;
+    margin-bottom: 30px;
+    margin-left: 500px;
+}
+
+.quartotexto-main{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-left: 500px;
+}
+
+.quintotexto-main{
+    width: 1200px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+}
+
+.sextotexto-main{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-left: 500px;
+}
+
+.setimotexto-main{
+    width: 1200px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+}
+
+
+.oitavotexto-main{
+    width: 1200px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+}
+
+
+.nonotexto-main{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 500px;
+}
+
+.decimotexto-main{
+    width: 1200px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+}
+
+.decimoprimeirotexto-main{
+    width: 1200px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+}
+/*Textos final*/
+
+/*Card superior*/
+.card-superior{
+    position: relative;
+    top: 0;
+    margin-left: 50px;
+    border: 1px solid blue;
+    border-radius: 10px;
+    background-color: #0EA9DF;
+    width: 250px;
+    height: 250px;
+    box-shadow: 1px 5px 5px black;
+}
+
+.card-superior img{
+    width: 100%;
+    height: 70%;
+}
+
+.textoinferior-card-superior {
+    
+    color: white;
+    font-size: 12px;
+    text-align: end;
+    
+}
+
+.textoinferior-card-superior p {
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    
+}
+
+.textoinferior-card-superior a{
+    text-align: end;
+    margin-bottom: 50px;
+    color: #F2F1F1;
+    font-size: 5px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Main final*/
 
