@@ -1,37 +1,11 @@
 *{
     margin: 0;
-}
-body{
-    background-color: #F2F1F1;
-    padding-bottom: 30vh;
-    position: relative;
-}
-
-.logo{
-    height: 50px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    zoom: 100%;
 }
 
-
-.primeira-parte{
-    display: flex;
-}
-
-.titulo-solucoes{
-   position: absolute;
-}
-
-.titulo-solucoes p{
-    font-weight: 50;
-    position: relative;
-    justify-content: right;
-}
-
-.div-image-cego{
-    justify-content: right;
-    display: flex;
-    right: 5%;
-    position: absolute;
-}
 
 /* Inicio Nav Menu */
 .menu{
@@ -66,7 +40,9 @@ body{
     height: 35px;
 }
 
-
+.logo{
+    height: 50px;
+}
 
 .divider{
     background-color: white;
@@ -76,7 +52,37 @@ body{
 }
 /* Final Nav Menu */
 
+/*Início main*/
+body{
+    background-color: #F2F1F1;
+    padding-bottom: 30vh;
+    position: relative;
+}
 
+h2{
+    color: #0EA9DF;
+}
+
+.primeira-parte{
+    display: flex;
+}
+
+.titulo-solucoes{
+   position: absolute;
+}
+
+.titulo-solucoes p{
+    font-weight: 50;
+    position: relative;
+    justify-content: right;
+}
+
+.div-image-cego{
+    justify-content: right;
+    display: flex;
+    right: 5%;
+    position: absolute;
+}
 
 .primeira-parte{
     display: flex;
@@ -88,7 +94,6 @@ body{
 .titulo-solucoes{
    position: absolute;
 }
-
 
 .titulo-solucoes p{
     font-weight: 50;
@@ -141,9 +146,8 @@ padding-bottom: 100px;
     padding-bottom: 50px;
 }
 
-.btn-1 {
+.btn-primary {
     padding: 8px 100px;
-    width: 100px;
     color: #F2F1F1;
     background: #26B1E2;
     border: 2px solid #26B1E2;
@@ -153,11 +157,18 @@ padding-bottom: 100px;
     cursor: pointer;
     justify-content: center;
 
-    }
+}
 
-.botao2 {
+.btn-primary:hover {
+    background: #006E94;
+    color: #fff;
+    border-color: #006E94;
+    transition: 0.5s;
+}
+
+.btn-secondary {
     padding: 8px 20px;
-    width: 90px;
+    width: 130px;
     color: #9747FF;
     background: #F2F1F1;
     border: 2px solid #9747FF;
@@ -168,39 +179,17 @@ padding-bottom: 100px;
     justify-content: center;
 }
 
-.botao3 {
-    padding: 8px 20px;
-    width: 90px;
-    color: #9747FF;
-    background: #F2F1F1;
-    border: 2px solid #9747FF;
-    border-radius: 10px;
-    text-align: center;
-    user-select: none;
-    cursor: pointer;
-    justify-content: center;
+.btn-secondary:hover {
+    background: #BCBCBC;
+    transition: 0.5s;
 }
 
-.botao4 {
-    padding: 8px 20px;
-    width: 90px;
-    color: #9747FF;
-    background: #F2F1F1;
-    border: 2px solid #9747FF;
-    border-radius: 10px;
-    text-align: center;
-    user-select: none;
-    cursor: pointer;
-    justify-content: center;
+main{
+    margin-left: 50px;
 }
+/*Fim main*/
 
-
-
-
-
-
-
-
+/*Início Footer*/
 footer{
     color: white;
     display: flex;

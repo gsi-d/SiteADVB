@@ -6,10 +6,11 @@
     zoom: 100%;
 }
 
-/*Nav Menu*/
+/*Início Nav Menu*/
 body{
     padding-bottom: 30vh;
     position: relative;
+    background-color: #0690BF;
 }
 
 .menu{
@@ -53,6 +54,172 @@ body{
     height: 31px;
     margin-top: 2px;
 }
+/*Fim Nav Menu*/
+
+/*Início main*/
+h1{
+    color: white;
+    font-weight: 600;
+}
+
+h2{
+    color:#26B1E2;
+    font-weight: 50;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+h4{
+    color: #BEC0E9;
+    font-weight: 100;
+}
+
+.geral{
+    width: 100%;
+}
+
+.contate{
+    color: white;
+    background-color: #0690BF;
+    height: 16vh;
+}
+
+.title1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.m-t-35{
+    margin-top: 35px;
+}
+
+.m-t-15{
+    margin-top: 15px;
+}
+
+.imagem{
+    position: relative;
+}
+
+.img-fundo{
+    width: 100%;
+}
+
+.container{
+    position: absolute;
+    background-color: #46CDFD;
+    opacity: 0.9;
+    width: 60vw;
+    color: white;
+    border-radius: 15px;
+    bottom: 70%;
+    left: 35%;
+    padding: 10px;
+}
+
+.container-dois{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    background-color: #46CDFD;
+    opacity: 0.9;
+    width: 50vw;
+    height: 35vh;
+    color: white;
+    border-radius: 15px;
+    bottom: 35%;
+    left: -1%;
+    padding: 10px;
+    font-size: larger;
+}
+
+.paragrafo-container{
+    font-size: larger;
+}
+
+.paragrafo-container-dois{
+    margin-left: 15px;
+    font-size: larger;
+}
+
+/*Formulário*/
+
+.formulario{
+    position: absolute;
+    background-color: #BEC0E9;
+    opacity: 0.9;
+    width: 35vw;
+    color: black;
+    border-radius: 15px;
+    bottom: 35%;
+    right: 5%;
+    padding: 30px;
+}
+
+.div-nome{
+    display: flex;
+}
+
+.form_grupo {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.form_grupo {
+    width: 100%;
+    margin-bottom: 20px;
+    position: relative;
+}
+.form_input {
+    font-size: 16px;
+    font-family: inherit;
+    padding: 8px 15px;
+    border-radius: 4px;
+    border: 1px #f2f2f2 solid;
+    background: #fdfdfd;
+    outline: none;
+    width: 100%;
+    transition: all 0.3s;
+}
+.form_message,
+.form_message .message_input {
+    width: 100%;
+    float:left;
+}
+.form_message_label {
+    width: 100%;
+    float: left;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    
+}
+
+.btn-2 {
+    margin-top: 10px;
+    width: 90px;
+    height: 30px;
+    color: #fff;
+    background: #0EA9DF;
+    border: 2px solid #0EA9DF;
+    border-radius: 15px;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+}
+
+.btn-2:hover {
+    background: #006E94;
+    color: #fff;
+    border-color: #006E94;
+    transition: 0.5s;
+}
+
+/*Fim main*/
 
 /* Inicio Footer */
 
@@ -129,92 +296,3 @@ footer h3{
 .tag-a-solucoes{
     text-decoration: underline;
 }
-
-
-
-
-h1{
-    color: white;
-    font-weight: 600;
-}
-
-h2{
-    color:#26B1E2;
-    font-weight: 50;
-    margin-bottom: 20px;
-    font-weight: 400;
-}
-
-h4{
-    color: #BEC0E9;
-    font-weight: 100;
-}
-
-.geral{
-    width: 100%;
-}
-
-.contate{
-    color: white;
-    background-color: #0690BF;
-    height: 16vh;
-}
-
-.title1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-.m-t-35{
-    margin-top: 35px;
-}
-
-.m-t-15{
-    margin-top: 15px;
-}
-
-.imagem{
-    position: relative;
-}
-
-.img-fundo{
-    width: 100%;
-}
-
-.container{
-    position: absolute;
-    background-color: #46CDFD;
-    opacity: 0.68;
-    width: 60vw;
-    color: white;
-    border-radius: 15px;
-    bottom: 70%;
-    left: 35%;
-    padding: 10px;
-}
-
-.container-dois{
-    position: absolute;
-    background-color: #46CDFD;
-    opacity: 0.68;
-    width: 45vw;
-    color: white;
-    border-radius: 15px;
-    bottom: 35%;
-    left: -1%;
-    padding: 10px;
-}
-
-.paragrafo-container{
-    opacity: 9 !important;
-    font-size: larger;
-}
-
-.paragrafo-container-dois{
-    margin-left: 15px;
-    font-size: larger;
-}
-
-
