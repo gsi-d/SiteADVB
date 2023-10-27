@@ -33,7 +33,7 @@ body{
     position: absolute;
 }
 
-
+/* Inicio Nav Menu */
 .menu{
     display: flex;
     justify-content: space-between;
@@ -75,7 +75,9 @@ body{
     height: 31px;
     margin-top: 2px;
 }
+/* Final Nav Menu */
 
+/* Inicio Footer */
 footer{
     color: white;
     display: flex;
@@ -122,3 +124,4 @@ footer h3{
 .tag-a-solucoes{
     text-decoration: underline;
 }
+/* Fim do Footer */

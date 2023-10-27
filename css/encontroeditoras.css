@@ -8,7 +8,6 @@
 
 /*Nav Menu*/
 body{
-    background-color: #F2F1F1;
     padding-bottom: 30vh;
     position: relative;
 }
@@ -20,7 +19,7 @@ body{
 }
 
 .menu-btn {
-    margin: 90px;
+    margin: 85px;
 }
 
 .div-image{
@@ -96,6 +95,33 @@ footer h3{
 
 .solucoes-acessibilidade-footer{
     position: relative;
+}
+
+.tag-a-solucoes{
+    text-decoration: underline;
+}
+
+#direito{
+    display: flex;
+    position: absolute;
+    bottom: 0%;
+    left: 1%;
+    font-weight: 50;
+}
+
+.documentos-footer{
+    position: relative;
+    left: 10%;
+}
+
+.contatos-footer{
+    display: block;
+    justify-content: center;
+}
+
+.solucoes-acessibilidade-footer{
+    position: relative;
+    left: 65%;
 }
 
 .tag-a-solucoes{

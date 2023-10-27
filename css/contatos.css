@@ -8,7 +8,6 @@
 
 /*Nav Menu*/
 body{
-    background-color: #0690BF;
     padding-bottom: 30vh;
     position: relative;
 }
@@ -17,6 +16,10 @@ body{
     display: flex;
     justify-content: space-between;
     background-color: black;
+}
+
+.menu-btn {
+    margin: 85px;
 }
 
 .div-image{
@@ -51,9 +54,8 @@ body{
     margin-top: 2px;
 }
 
+/* Inicio Footer */
 
-
-/*Footer*/
 footer{
     color: white;
     display: flex;
@@ -63,7 +65,7 @@ footer{
     bottom: 0%;
     left: 0%;
     height: 30vh;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 footer a{
@@ -74,6 +76,31 @@ footer a{
 footer h3{
     margin-top: 25px;
     margin-bottom: 25px;
+}
+
+#direito{
+    display: flex;
+    position: absolute;
+    bottom: 0%;
+    left: 1%;
+    font-weight: 50;
+}
+
+.documentos-footer{
+    position: relative;
+}
+
+.contatos-footer{
+    display: block;
+    justify-content: center;
+}
+
+.solucoes-acessibilidade-footer{
+    position: relative;
+}
+
+.tag-a-solucoes{
+    text-decoration: underline;
 }
 
 #direito{
