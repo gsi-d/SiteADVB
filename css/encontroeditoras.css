@@ -19,6 +19,10 @@ body{
     background-color: black;
 }
 
+.menu-btn {
+    margin: 90px;
+}
+
 .div-image{
     background-color: #26B1E2;
     height: 50px;
@@ -51,9 +55,6 @@ body{
     margin-top: 2px;
 }
 
-
-
-/*Footer*/
 footer{
     color: white;
     display: flex;
@@ -63,7 +64,7 @@ footer{
     bottom: 0%;
     left: 0%;
     height: 30vh;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 footer a{
@@ -86,7 +87,6 @@ footer h3{
 
 .documentos-footer{
     position: relative;
-    left: 10%;
 }
 
 .contatos-footer{
@@ -96,7 +96,6 @@ footer h3{
 
 .solucoes-acessibilidade-footer{
     position: relative;
-    left: 65%;
 }
 
 .tag-a-solucoes{

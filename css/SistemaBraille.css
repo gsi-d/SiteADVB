@@ -3,10 +3,20 @@
     padding: 0;
 }
 
+body {
+    background-color: #F2F1F1;
+    padding-bottom: 30vh;
+    position: relative;
+}
+
 .menu{
     display: flex;
     justify-content: space-between;
     background-color: black;
+}
+
+.menu-btn {
+    margin: 90px;
 }
 
 .div-image{
@@ -56,7 +66,12 @@
 }
 
 .txt {
-    font-size: 19px;
+    font-size: 24px;
+    text-align: justify;
+}
+
+.paragrafo {
+    text-indent: 2em;
 }
 
 .txtcomimg {
@@ -85,3 +100,62 @@
 .img {
     width: 280px;
 }
+
+.img-centro {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.margin-top {
+    margin-top: 100px;
+}
+
+footer{
+    color: white;
+    display: flex;
+    background-color: #26B1E2;
+    position: absolute;
+    width: 100%;
+    bottom: 0%;
+    left: 0%;
+    height: 30vh;
+    justify-content: space-around;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+footer h3{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#direito{
+    display: flex;
+    position: absolute;
+    bottom: 0%;
+    left: 1%;
+    font-weight: 50;
+}
+
+.documentos-footer{
+    position: relative;
+}
+
+.contatos-footer{
+    display: block;
+    justify-content: center;
+}
+
+.solucoes-acessibilidade-footer{
+    position: relative;
+}
+
+.tag-a-solucoes{
+    text-decoration: underline;
+}
+
