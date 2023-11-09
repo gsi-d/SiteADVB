@@ -1,7 +1,9 @@
-
-* {
+*{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    zoom: 100%;
 }
 
 /* Inicio Nav Menu */
@@ -12,7 +14,7 @@
 }
 
 .menu-btn {
-    margin: 90px;
+    margin: 85px;
 }
 
 .div-image{
